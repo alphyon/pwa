@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyB4Bfyx0oD9e7JaHQOvutVqlMYNxivmaIE",
-    authDomain: "pwa-project-2c598.firebaseapp.com",
-    databaseURL: "https://pwa-project-2c598.firebaseio.com",
-    projectId: "pwa-project-2c598",
-    storageBucket: "pwa-project-2c598.appspot.com",
-    messagingSenderId: "393260693935"
+    apiKey: 'AIzaSyB4Bfyx0oD9e7JaHQOvutVqlMYNxivmaIE',
+    authDomain: 'pwa-project-2c598.firebaseapp.com',
+    databaseURL: 'https://pwa-project-2c598.firebaseio.com',
+    projectId: 'pwa-project-2c598',
+    storageBucket: 'pwa-project-2c598.appspot.com',
+    messagingSenderId: '393260693935'
   }
 };

@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {TransferHttpCacheModule} from '@nguniversal/common';
 import { environment } from '../environments/environment';
-import { routes } from './routes'; 
+import { routes } from './routes';
 
 @NgModule({
   declarations: [
