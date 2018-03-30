@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import {TransferHttpCacheModule} from '@nguniversal/common';
 import { environment } from '../environments/environment';
 import { routes } from './routes';
+import { AuthService } from './service/auth.service';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,7 @@ import { routes } from './routes';
     AngularFireAuthModule,
     AngularFirestoreModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
