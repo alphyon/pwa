@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFirestoreModule} from 'angularfire2/firestore';
 import {AngularFireAuthModule} from 'angularfire2/auth';
+import {LoginComponent} from './login/login.component';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +17,7 @@ import { routes } from './routes';
   declarations: [
     AppComponent,
     HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
